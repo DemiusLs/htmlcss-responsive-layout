@@ -1,1 +1,68 @@
 /* Soluzione qui */
+/* Versione tablet */
+
+@media screen and (min-width:768px) {
+    /* layout */
+
+    .container {
+        width: 90%;
+    }
+
+    /* main */
+    main {
+
+        padding-top: 50px;
+
+    }
+
+    /* header */
+    #topbar {
+        justify-content: flex-start;
+
+    }
+
+    /* recipe section */
+
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-title {
+        font-size: 1.3rem;
+    }
+
+    /* Card */
+    /* Quick Notes */
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        width: 30%;
+
+    }
+
+    /* Social networks */
+
+    .social-networks .btn {
+        flex-grow: 1;
+    }
+
+    /* ADS */
+
+    .ads {
+        display: block;
+    }
+
+    /* Presentation */
+    .presentation img {
+        float: left;
+        margin: 10px;
+    }
+
+    
+
+}
